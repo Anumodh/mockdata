@@ -1,4 +1,4 @@
-{
+
         users: [
         {id: '1', name: 'John', email : 'john@gmail.com', companyname : "Coffee Factory", realmid :"1", status: "Active",
          roles :[
@@ -31,4 +31,4 @@
         }
 
     ]
-}
+
