@@ -1,11 +1,39 @@
 {
 	"users": [{
 			"id": 1,
-			"name": "John"
+			"name": "John",
+			"status": "Active",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User"]
+				}
+			]
 		},
 		{
-			"id": 1,
-			"name": "Tom"
+			"id": 2,
+			"name": "John",
+			"status": "Tom",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User", "Processor"]
+				}
+			]
 		}
 	]
 
