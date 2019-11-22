@@ -1,0 +1,32 @@
+users: [
+        {id: '1', name: 'John', email : 'john@gmail.com', companyname : "Coffee Factory", realmid :"1", status: "Active",
+         roles :[
+                {appName: "Payroll", appRoles :["Payroll Manager", "Payroll Processor"]},
+                {appName: "Payments", appRoles :["Limited User"]},
+                {appName: "Tsheets", appRoles :["User"]}
+            ]
+        },
+        {id: '2', name: 'Tom', email : 'tom@gmail.com', companyname : "Coffee Factory", realmid : "1", status: "Pending",
+
+            roles :[
+                {appName: "Payroll", appRoles :["Payroll Manager", "Payroll Processor"]},
+                {appName: "Payments", appRoles :["Limited User", "Some User"]},
+                {appName: "Tsheets", appRoles :["Full User"]}
+            ]
+
+        },
+        {id: '3', name: 'Harry', email : 'harry@yahoo.com', companyname : "Snacks Bar", realmid :"2", status: "Pending",
+
+            roles :[
+                {appName: "Payments", appRoles :["Company Admin"]}
+            ]
+
+        },
+        {id: '4', name: 'David', email : 'david@hotmail.com', companyname : "Burger shop", realmid :"3", status: "Active",
+
+            roles :[
+                {appName: "Tsheets", appRoles :["Full User", "Another role"]}
+            ]
+        }
+
+    ]
