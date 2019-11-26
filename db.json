@@ -38,7 +38,7 @@
 		  {
 			"id": 3,
 			"name": "Fiona",
-			"status": "Tom",
+			"status": "Pending",
 			"roles": [{
 					"appName": "Payroll",
 					"appRoles": ["Payroll Manager", "Payroll Processor"]
@@ -50,6 +50,16 @@
 				{
 					"appName": "Tsheets",
 					"appRoles": ["User", "Processor"]
+				}
+			]
+		},
+		  {
+			"id": 4,
+			"name": "Graham",
+			"status": "Active",
+			"roles": [{
+					"appName": "Full Access",
+					"appRoles": ["Master Admin"]
 				}
 			]
 		}
