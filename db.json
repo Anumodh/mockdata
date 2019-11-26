@@ -1,4 +1,68 @@
 {
-	"users": []
+	"users": [{
+			"id": 1,
+			"name": "Kevin",
+			"status": "Active",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User"]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Frank",
+			"status": "Tom",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User", "Processor"]
+				}
+			]
+		},
+		  {
+			"id": 3,
+			"name": "Fiona",
+			"status": "Pending",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User", "Processor"]
+				}
+			]
+		},
+		  {
+			"id": 4,
+			"name": "Graham",
+			"status": "Active",
+			"roles": [{
+					"appName": "Full Access",
+					"appRoles": ["Master Admin"]
+				}
+			]
+		}
+	]
 
 }
