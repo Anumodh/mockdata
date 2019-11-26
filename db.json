@@ -1,7 +1,7 @@
 {
 	"users": [{
 			"id": 1,
-			"name": "John",
+			"name": "Kevin",
 			"status": "Active",
 			"roles": [{
 					"appName": "Payroll",
@@ -19,7 +19,25 @@
 		},
 		{
 			"id": 2,
-			"name": "John",
+			"name": "Frank",
+			"status": "Tom",
+			"roles": [{
+					"appName": "Payroll",
+					"appRoles": ["Payroll Manager", "Payroll Processor"]
+				},
+				{
+					"appName": "Payments",
+					"appRoles": ["Limited User"]
+				},
+				{
+					"appName": "Tsheets",
+					"appRoles": ["User", "Processor"]
+				}
+			]
+		},
+		  {
+			"id": 3,
+			"name": "Fiona",
 			"status": "Tom",
 			"roles": [{
 					"appName": "Payroll",
